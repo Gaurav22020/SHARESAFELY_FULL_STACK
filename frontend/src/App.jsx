@@ -1,7 +1,8 @@
-import React from 'react'
-import UploadForm from './components/UploadForm'
+import React from "react";
+import UploadForm from "./components/UploadForm";
+import "./styles.css";
 
-export default function App(){
+export default function App() {
   return (
     <div className="app">
       <header className="header">
@@ -12,8 +13,10 @@ export default function App(){
         <UploadForm />
       </main>
       <footer className="footer">
-        <small>Built with Azure Blob Storage • Keep secrets in Key Vault</small>
+        <small>
+          Built with Azure Blob Storage • Keep secrets in Key Vault
+        </small>
       </footer>
     </div>
-  )
+  );
 }
